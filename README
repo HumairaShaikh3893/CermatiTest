@@ -1,0 +1,16 @@
+How to run:
+
+1.Open testng.xml file
+2.Right click on it and run -> TESTNG suite
+
+
+Approaches:
+ 
+1.Created base file with the driver initiation and close methods.
+2.Created two page object classes in the "com.pageObject" package,which contains all the locators and action methods.
+3.Created two test classes for two scenarios in the "com.testcases" package.
+4.created utilities to add the listeners with the failed scenario which will get the screenshot on test failure,
+  with the test method name as a file name and store into the"screenshot" folder
+
+ 
+ 

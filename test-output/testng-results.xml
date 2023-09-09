@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-09T11:07:03 IST" name="Suite" finished-at="2023-09-09T11:08:17 IST" duration-ms="74461">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T11:07:03 IST" name="Ebay" finished-at="2023-09-09T11:08:17 IST" duration-ms="74461">
+      <class name="com.testcases.Scenario2">
+        <test-method signature="productSearch()[pri:0, instance:com.testcases.Scenario2@1a75e76a]" started-at="2023-09-09T11:07:54 IST" name="productSearch" finished-at="2023-09-09T11:08:17 IST" duration-ms="23333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearch -->
+      </class> <!-- com.testcases.Scenario2 -->
+      <class name="com.testcases.Scenario1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Scenario1@2cb4893b]" started-at="2023-09-09T11:07:03 IST" name="setup" finished-at="2023-09-09T11:07:07 IST" duration-ms="4015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterSenario()[pri:0, instance:com.testcases.Scenario1@2cb4893b]" started-at="2023-09-09T11:07:07 IST" name="filterSenario" finished-at="2023-09-09T11:07:54 IST" duration-ms="46926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterSenario -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.Scenario1@2cb4893b]" started-at="2023-09-09T11:08:17 IST" name="teardown" finished-at="2023-09-09T11:08:17 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.Scenario1 -->
+    </test> <!-- Ebay -->
+  </suite> <!-- Suite -->
+</testng-results>
